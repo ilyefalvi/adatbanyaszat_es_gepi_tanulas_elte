@@ -1,0 +1,13 @@
+\begin{tikzpicture}[pont/.style={fill = black}]
+\pgfmathsetmacro{\K}{8}
+
+\draw[step=1.0] (0,0) grid (8,9.134008817433484);
+\node[pont](n2) at (2, 8.134008817433484){};
+\node[pont](n3) at (3, 6.698791451559871){};
+\node[pont](n4) at (4, 6.0195737507677745){};
+\node[pont](n5) at (5, 5.190819090003012){};
+\node[pont](n6) at (6, 4.675287685540025){};
+\node[pont](n7) at (7, 4.269744193989574){};
+\foreach \k in {1,2,...,8}{
+ \node[] at(\k, -.25){\k};
+}\n\end{tikzpicture}

@@ -1,0 +1,1 @@
+'red','green','blue','cyan','magenta','yellow','black, text=white','gray','white','darkgray','lightgray','brown','lime','olive','orange','pink','purple','teal','violet',
